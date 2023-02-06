@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 
 
 /* Utility---------------------------------- */
@@ -13,9 +11,7 @@
     display: flex;
 }
 
-/* Body */
-
-
+/* Body -----------------------------------*/
 
 /* Header---------------------------------- */
 
@@ -24,8 +20,6 @@
     display: flex;
     justify-content: center;
     padding: 1.5rem;
-    border: dashed black;
-
 }
 
 .nav {
@@ -33,160 +27,200 @@
     width: 1140px;
     justify-content: space-between;
     height: 30px;
-    border: dashed black;
 }
 
-.header-bottom{
-    
+.header-bottom {
+
     justify-content: center;
     padding: 1.5rem;
     height: 300px;
     display: flex;
-    border: dashed black;
-
 }
 
-.banner{
+.banner {
     display: flex;
-    width: 1140px;
+    width: 800px;
     justify-content: center;
-    border: dashed black;
 }
 
 /* Main--------------------------------------- */
 
-/* Section-1 */
+/* Section-1 ------------------*/
 
-.section-1{
+.section-1 {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    border: dashed black;
     height: 500px;
-    background: white;
     
 }
-.Container-section-1{
+
+.Container-section-1 {
     width: 1140px;
     display: flex;
-    
 }
 
 
-.section-1-left{
-    
-    
+.section-1-left {
     justify-content: center;
-    border: dashed black;
     flex-grow: 0.6;
-    
 }
-.section-1-right{
+
+.section-1-right {
     justify-content: center;
-    border: dashed black;
     flex-grow: 0.4;
-    
-    
 }
 
-/* Section-2 */
+/* Section-2 ------------------*/
 
-.section-2{
+.section-2 {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    border: dashed black;
     height: 500px;
-    background: gray;
-    
+   
 }
-.Container-section-2{
+
+.Container-section-2 {
     width: 1140px;
     display: flex;
     flex-direction: row-reverse;
-    
-    
 }
 
 
-.section-2-left{
-    
-    
+.section-2-left {
     justify-content: center;
-    border: dashed black;
     flex-grow: 0.6;
-    
 }
-.section-2-right{
+
+.section-2-right {
     justify-content: center;
-    border: dashed black;
     flex-grow: 0.4;
-    
-    
 }
 
-/* Section-3 */
+/* Section-3 --------------*/
 
-.section-3{
+.section-3 {
     display: flex;
     justify-content: center;
     padding: 2rem;
-    border: dashed black;
     height: 800px + 1.5rem;
-    background: gray;
     
 }
-.Container-section-3{
+
+.Container-section-3 {
     width: 1140px;
     display: flex;
     flex-direction: row-reverse;
-    
-    
 }
 
-.section-center-3{
+.section-center-3 {
     width: 100%;
-    border: dashed black;
     height: 800px;
-}   
+}
+
+/* Footer--------------------------------------------- */
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer-info{
+    display:flex;
+    width: 1140px;
+    height: 500px;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.big-column-footer-info{
+    flex-grow: 2;
+}
+
+.little-column-footer-info{
+    flex-grow: 1;
+}
 
 
-/* Debug */
+
+/* Debug---------------------------------------------- */
 
 .debug-header-up {
     background: lightblue;
+    border: dashed black;
 }
 
 .debug-nav {
     background: orange;
-}
-
-.debug-nav-item{
     border: dashed black;
 }
 
-.debug-header-bottom{
+.debug-nav-item {
+    border: dashed black;
+}
+
+.debug-header-bottom {
     background: blue;
+    border: dashed black;
 }
 
-.debug-banner{
+.debug-banner {
     background: pink;
+    border: dashed black;
 }
 
-.debug-section-1-left{
+.debug-section-1{
+    background: white;
+    border: dashed black;
+}
+
+.debug-section-1-left {
     background: rgb(19, 89, 180);
-}
-.debug-section-1-right{
-    background: rgb(189, 40, 29);
+    border: dashed black;
 }
 
-.debug-section-2-left{
+.debug-section-1-right {
+    background: rgb(189, 40, 29);
+    border: dashed black;
+}
+
+.debug-section-2{
+    background: rgb(192, 192, 192);
+    border: dashed black;
+}
+
+.debug-section-2-left {
     background: rgb(19, 89, 180);
-}
-.debug-section-2-right{
-    background: rgb(189, 40, 29);
+    border: dashed black;
 }
 
-.debug-section-center-3{
+.debug-section-2-right {
+    background: rgb(189, 40, 29);
+    border: dashed black;
+}
+
+.debug-section-3{
+    background: rgb(192, 192, 192);
+    border: dashed black;
+}
+
+.debug-section-center-3 {
     background: green;
+    border: dashed black;
+}
+
+.debug-footer-info{
+    background-color: rgb(71, 71, 71);
+    border: dashed black;
+}
+
+.debug-big-column-footer-info{
+   background-color:coral;
+   border: dashed black; 
+
+}
+
+.debug-little-column-footer-info{
+    background-color:aquamarine;
+    border: dashed black;
 }
