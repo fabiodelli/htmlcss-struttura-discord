@@ -141,6 +141,22 @@
     flex-grow: 1;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.footer-box {
+    display: flex;
+    width: 1140px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+
+
 
 
 /* Debug---------------------------------------------- */
@@ -222,5 +238,20 @@
 
 .debug-little-column-footer-info{
     background-color:aquamarine;
+    border: dashed black;
+}
+
+.debug-footer {
+    background:  rgb(71, 71, 71);
+    border: dashed black;
+}
+
+.debug-footer-box {
+    background: rgb(19, 68, 107);
+    border: dashed black;
+}
+
+.debug-footer-item {
+    background-color: lightgray ;
     border: dashed black;
 }
