@@ -5,6 +5,8 @@
 
 }
 
+
+
 /* Utility---------------------------------- */
 
 .d-f {
@@ -14,6 +16,7 @@
 /* Body */
 
 
+
 /* Header---------------------------------- */
 
 
@@ -21,6 +24,7 @@
     display: flex;
     justify-content: center;
     padding: 1.5rem;
+    border: dashed black;
 
 }
 
@@ -38,6 +42,7 @@
     padding: 1.5rem;
     height: 300px;
     display: flex;
+    border: dashed black;
 
 }
 
@@ -50,10 +55,100 @@
 
 /* Main--------------------------------------- */
 
-.section-1{
+/* Section-1 */
 
+.section-1{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border: dashed black;
+    height: 500px;
+    background: white;
+    
+}
+.Container-section-1{
+    width: 1140px;
+    display: flex;
+    
 }
 
+
+.section-1-left{
+    
+    
+    justify-content: center;
+    border: dashed black;
+    flex-grow: 0.6;
+    
+}
+.section-1-right{
+    justify-content: center;
+    border: dashed black;
+    flex-grow: 0.4;
+    
+    
+}
+
+/* Section-2 */
+
+.section-2{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border: dashed black;
+    height: 500px;
+    background: gray;
+    
+}
+.Container-section-2{
+    width: 1140px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+
+.section-2-left{
+    
+    
+    justify-content: center;
+    border: dashed black;
+    flex-grow: 0.6;
+    
+}
+.section-2-right{
+    justify-content: center;
+    border: dashed black;
+    flex-grow: 0.4;
+    
+    
+}
+
+/* Section-3 */
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border: dashed black;
+    height: 800px + 1.5rem;
+    background: gray;
+    
+}
+.Container-section-3{
+    width: 1140px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.section-center-3{
+    width: 100%;
+    border: dashed black;
+    height: 800px;
+}   
 
 
 /* Debug */
@@ -64,7 +159,10 @@
 
 .debug-nav {
     background: orange;
+}
 
+.debug-nav-item{
+    border: dashed black;
 }
 
 .debug-header-bottom{
@@ -75,6 +173,20 @@
     background: pink;
 }
 
-.debug-section-1{
-    background: white;
+.debug-section-1-left{
+    background: rgb(19, 89, 180);
+}
+.debug-section-1-right{
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-2-left{
+    background: rgb(19, 89, 180);
+}
+.debug-section-2-right{
+    background: rgb(189, 40, 29);
+}
+
+.debug-section-center-3{
+    background: green;
 }
