@@ -4,3 +4,41 @@ padding: 0;
 box-sizing: border-box;
 }
 
+/* Utility */
+
+.d-f{
+    display: flex;
+}
+
+/* Body */
+
+.header{
+    display: flex;
+}
+
+.nav{
+    width: 800px;
+}
+
+/* Container */
+
+.container{
+    width: 800px;
+}
+
+/* Debug */
+
+.debug-header{
+    background: lightblue;
+}
+
+.debug-nav{
+    background: orange;
+
+}
+
+ 
+
+
+
+
